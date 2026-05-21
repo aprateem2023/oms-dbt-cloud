@@ -1,0 +1,15 @@
+sources:
+  - name: landing
+    description: The primary source system for order management system(OMS) data analytics.  
+    database: SLEEKMART_OMS
+    schema: L1_LANDING
+    tables:
+      - name: customers
+        description: The customers table from order management system(OMS).      
+        identifier: customers
+      - name: orders
+        description: The orders table from order management system(OMS).      
+        identifier: orders
+      - name: orderitems
+        description: The orderitems table from order management system(OMS).      
+        identifier: orderitems
